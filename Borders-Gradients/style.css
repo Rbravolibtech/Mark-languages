@@ -1,0 +1,58 @@
+body {
+	background-color: black;
+	/* color: white; */
+}
+.card-rounded {
+	position: relative;
+	display: block;
+	width: 500px;
+	height: 500px;
+	border-radius: 35%;
+	border-top-left-radius: 20%;
+	border-top-right-radius: 20%;
+	border-bottom-right-radius: 40%;
+	border-bottom-left-radius: 40%;
+	border: 2px solid orange;
+}
+
+.card {
+	outline: 3px solid red;
+	position: relative;
+	display: block;
+	width: 300px;
+	height: 500px;
+	background: linear-gradient(90deg, pink, purple);
+	border-radius: 25%;
+	border-top-left-radius: 15%;
+	border-top-right-radius: 15%;
+	border-bottom-right-radius: 35%;
+	border-bottom-left-radius: 35%;
+	border: 2px solid blue;
+}
+
+.icon {
+	color: orange;
+	margin-bottom: 10%;
+}
+
+.fa-plane-up {
+	color: orange;
+	margin-bottom: 10%;
+}
+
+.h1 {
+	color: orange !important;
+}
+
+hr.style-one {
+	margin-bottom: 0%;
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.btn {
+	margin-top: 20%;
+	color: black;
+}
